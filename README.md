@@ -7,6 +7,7 @@ Theme is based on my ideas about how the Sega Mega Drive mini menu might look li
 ORIENTATION
 -
 To change the layout style or resolution, you need to open the setup.xml file and change the corresponding lines.
+
 Examples of styles are shown in the LAYOUTS.png file.
 
 ------------------------------------------------------------------------------
