@@ -1,0 +1,12 @@
+<theme>
+    <view name="basic, detailed,video">
+		<textlist name="gamelist">
+			<pos>0.15208 0.2375</pos>		
+			<size>0.31458 0.50740</size>
+			<lineSpacing>1.265</lineSpacing>
+			<selectorHeight>0.06296</selectorHeight>
+			<selectorOffsetY>0.011</selectorOffsetY>
+			<horizontalMargin>0.0125</horizontalMargin>
+		</textlist>		
+	</view>
+</theme>

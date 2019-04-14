@@ -1,0 +1,19 @@
+<!--
+theme name:		mega-pi
+version:		1.0
+author:			frgn (free.gen)
+email:          helios.kms@gmail.com
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+--------------------------------------------
+<!-- CHOOSE REGION [OPTIONS: MD2, EU, USA, JAP, RETROFLAG.] -->
+	<include>./art/region/RETROFLAG.xml</include>
+--------------------------------------------
+
+--------------------------------------------
+<!-- CHOOSE RESOLUTION [OPTIONS: FHD(1920x1080), HD(1280x720), MD (960x540).] -->	
+	<include>./layouts/FHD.xml</include>
+--------------------------------------------
+</theme>

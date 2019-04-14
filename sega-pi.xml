@@ -1,0 +1,131 @@
+<!--
+theme name:		mega-pi
+version:		1.0
+author:			frgn (free.gen)
+email:          helios.kms@gmail.com
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <include>./setup.xml</include>
+	
+	<view name="system, basic, detailed, video">
+<!--hide standart helpsystem-->
+		<helpsystem name="help">
+			<pos>2 2</pos>
+		</helpsystem>
+	</view>
+
+<!--carousel-->	
+	<feature supported="carousel">
+
+		<view name="system">
+		
+			<image name="cg" extra="true">
+				<path>./art/cg.png</path>
+				<size>1.0 1.0</size>
+				<zIndex>30</zIndex>
+			</image>
+
+			<image name="system_selected" extra="true">
+				<path>./art/system_selected.png</path>
+				<size>1.0 1.0</size>
+				<zIndex>35</zIndex>
+			</image>
+
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<color>ffffff00</color>
+				<logoScale>1.0</logoScale>
+				<pos>-0.002 0.368</pos>
+				<size>1.0 0.45</size>
+				<logoSize>0.1916 0.4259</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<zIndex>25</zIndex>
+			</carousel>
+
+			<text name="systemInfo">
+				<backgroundColor>00000000</backgroundColor>
+				<color>ffffff</color>
+				<fontPath>./art/TinyUnicode.ttf</fontPath>
+				<pos>0.3 0.358</pos>
+				<size>0.4 0.05</size>
+				<fontSize>0.0592</fontSize>
+				<zIndex>25</zIndex>
+			</text>
+
+		</view>
+
+	</feature>
+
+    <view name="basic, detailed, video">
+
+<!--gamelist base-->
+		
+		<textlist name="gamelist">
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>079FE8</selectedColor>
+			<primaryColor>cccccc</primaryColor>
+			<secondaryColor>eeeeee</secondaryColor>
+			<selectorImagePath>./art/selector.png</selectorImagePath>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/SEGAPI.ttf</fontPath>
+			<alignment>left</alignment>
+			<fontSize>0.0592</fontSize>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+		</textlist>
+
+<!--NO-METADATA-->
+		<text name="md_lbl_rating, md_rating, md_lbl_releasedate, md_releasedate, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_lastplayed, md_lastplayed, md_lbl_playcount, md_playcount, md_description, " extra="true">
+        	<pos>2 2</pos>
+		</text>
+<!--boxart & video-->
+		<image name="md_image">
+			<pos>0.68958 0.40740</pos>
+			<maxSize>0.27291 0.34074</maxSize>
+			<origin>0.5 0.0</origin>
+		</image>	
+		
+		<video name="md_video">
+			<pos>0.68958 0.40740</pos>
+			<maxSize>0.27291 0.34074</maxSize>
+			<origin>0.5 0.0</origin>		
+		</video>
+<!--missing boxart-->
+		<image name="missing_art" extra="true">
+			<path>./art/missing.png</path>
+			<pos>0.68958 0.40740</pos>
+			<maxSize>0.27291 0.34074</maxSize>
+			<origin>0.5 0.0</origin>
+		</image>
+<!--rating bar-->	
+		<rating name="md_rating">
+			<filledPath>./art/invisible.png</filledPath>
+			<unfilledPath>./art/invisible.png</unfilledPath>
+		</rating>
+	</view>
+
+	<view name="video">
+    	<video name="md_video">
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<delay>2</delay>			
+		</video>
+		<image name="md_marquee">
+			<pos>2 2</pos>
+		</image>
+		<image name="md_image">
+			<pos>2 2</pos>
+		</image>
+		
+	</view>
+
+<!--SOUND BLOCK-->
+    <sound name="systemscroll">
+			<path>./sounds/scroll.wav</path>
+	</sound>
+	<sound name="launch">
+			<path>./sounds/launch.wav</path>
+	</sound>	
+</theme>

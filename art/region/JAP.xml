@@ -1,0 +1,51 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+    <view name="system">
+    	<image name="bg" extra="true">
+				<path>./JAP/bg.png</path>
+				<size>0 1</size>
+				<pos>0 0.5</pos>
+				<origin>0 0.5</origin>
+				<zIndex>-5</zIndex>
+		</image>
+		<image name="system_help" extra="true">
+			<path>./JAP/sh.png</path>
+			<size>0 0.1074</size>
+			<pos>0 0.95</pos>
+			<origin>0 1</origin>
+		</image>
+		<image name="borders" extra="true">
+				<path>./JAP/sw.png</path>
+				<size>0 1</size>
+				<pos>0 0.5</pos>
+				<origin>0 0.5</origin>
+				<zIndex>0</zIndex>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+		<image name="bg" extra="true">
+				<path>./JAP/bg.png</path>
+				<size>0 1</size>
+				<pos>0 0.5</pos>
+				<origin>0 0.5</origin>
+				<zIndex>-5</zIndex>
+		</image>
+		<image name="system_help" extra="true">
+			<path>./JAP/gh.png</path>
+			<size>0 0.1074</size>
+			<pos>0 0.95</pos>
+			<origin>0 1</origin>
+		</image>
+		<image name="borders" extra="true">
+				<path>./JAP/gw.png</path>
+				<size>0 1</size>
+				<pos>0 0.5</pos>
+				<origin>0 0.5</origin>
+				<zIndex>5</zIndex>
+		</image>
+	</view>
+
+</theme>

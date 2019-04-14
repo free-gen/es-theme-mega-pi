@@ -1,0 +1,24 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../sega-pi.xml</include>
+	<view name="system">
+		<image name="logo">
+			<path>./carousel_logo.png</path>
+        </image>
+
+		<image name="header" extra="true">
+                <path>./logo.png</path>
+                <size>0.34166 0.17037</size>
+                <pos>0.5 0.17</pos>
+				<origin>0.5 0.0</origin>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+			<image name="header" extra="true">
+                <path>./logo.png</path>
+                <size>0.34166 0.17037</size>
+                <pos>0.68958 0.22222</pos>
+				<origin>0.5 0.0</origin>
+			</image>
+	</view>
+</theme>
