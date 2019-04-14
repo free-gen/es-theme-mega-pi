@@ -1,15 +1,12 @@
 Theme designed by free-gen
-
 Version 1.0
-
 14/04/2019
 
 Theme is based on my ideas about how the Sega Mega Drive mini menu might look like.
 
 ------------------------------------------------------------------------------
-
 License
------
+
 
 The development of this theme took quite a long time. Please do not use the graphics from this project for commercial purposes and other projects.
 
